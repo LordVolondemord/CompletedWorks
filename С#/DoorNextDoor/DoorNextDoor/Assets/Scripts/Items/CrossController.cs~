@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CrossController : MonoBehaviour
+{
+    float horizon;
+    float vertical;
+    float timer;
+
+    RectTransform rect;
+    // Start is called before the first frame update
+    void Start()
+    {
+        rect = GetComponent<RectTransform>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        horizon = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
+    }
+
+    private void FixedUpdate()
+    {
+        if(timer <= 0)
+        {
+            rect.position += new Vector3(horizon * 50, vertical * 50, 0);
+            timer = 0.3f;
+        }
+        timer -= Time.fixedDeltaTime;
+        
+    }
+}

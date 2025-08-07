@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class MergeHolder : MonoBehaviour, IDropHandler
+{
+    public GameObject firstKey;
+    public GameObject secondKey;
+    public bool isHold = false;
+
+    public void OnDrop(PointerEventData eventData)
+    {
+        if (eventData.pointerDrag == firstKey || eventData.pointerDrag == secondKey)
+        {
+            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
+                GetComponent<RectTransform>().anchoredPosition;
+            eventData.pointerDrag.GetComponent<DragAndDrop>().enabled = false;
+
+            eventData.pointerDrag.SetActive(false);
+            isHold = true;
+        }
+    }
+}

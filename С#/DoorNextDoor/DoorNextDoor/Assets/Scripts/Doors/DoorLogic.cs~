@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class DoorLogic : MonoBehaviour
+{
+    DoorController control;
+    Button button;
+    Animator anim;
+
+    void Start()
+    {
+        control = GetComponentInParent<DoorController>();
+        button = GetComponent<Button>();
+        anim = GetComponent<Animator>();
+
+        button.onClick.AddListener(Open);
+    }
+
+    void Open()
+    {
+        anim.Play("Open");
+        control.NextDoor();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
