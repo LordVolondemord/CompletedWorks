@@ -1,0 +1,9 @@
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\bin\Release\qrCodeLebedev.exe.config
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\bin\Release\qrCodeLebedev.exe
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\bin\Release\qrCodeLebedev.pdb
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\bin\Release\MessagingToolkit.QRCode.dll
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\obj\Release\qrCodeLebedev.mainQRCodeForm.resources
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\obj\Release\qrCodeLebedev.Properties.Resources.resources
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\obj\Release\qrCodeLebedev.csproj.GenerateResource.Cache
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\obj\Release\qrCodeLebedev.exe
+C:\Users\Александр\Desktop\qrCode\qrCodeLebedev\qrCodeLebedev\obj\Release\qrCodeLebedev.pdb

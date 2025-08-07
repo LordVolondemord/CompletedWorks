@@ -1,0 +1,10 @@
+wwwroot\APICalls.js
+wwwroot\index.html
+wwwroot\jquery-3.7.1.min.js
+wwwroot\konva.js
+wwwroot\konva.min.js
+wwwroot\styles.css
+wwwroot\Callbacks.js
+wwwroot\Client.js
+wwwroot\ContextUI.js
+wwwroot\KonvaUI.js
